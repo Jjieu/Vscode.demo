@@ -1,0 +1,112 @@
+* {
+    font-family: Noto Sans KR , sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+}
+.top_cate {
+    font: 16px; 
+    position: ;
+    z-index: 1000;
+    top; 0px;
+    margin-left: 0px;
+    wigth: 1234px;
+    left: 0px;
+}
+.header_bg2 {
+    height: 300px;
+    width: 100%;
+    background: #ddd9d7 url(
+        https://coiz8528.cafe24.com/backup/topbanner/1920x550contentus.jpg);
+    background-image: url("image/1920x550_contentus.jpg");
+}
+.header_bg2 .txt01 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: ;
+    padding-top: px;
+    text-align: left;
+}
+.header_bg2 .txt02 {
+    margin: 40px 0px 100px 0px;
+    font: 16px;
+    border: 1px;
+    background-image: (img src="1920x550_contentus.jpg");
+    background-position: 200px 21px;
+}
+.header_bg2 .txt02 a {
+    padding: 0px 100px 0px 10px;
+    color: #fff;
+}
+.top1 {
+    border-bottom: 1px solid #777;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+table > tbody > tr > th {
+    padding: 10px 0px 10px 28px;
+    font-size: 14px;
+    text-align: left;
+    wight: 120px;
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
+}
+table>tbody>tr>td {
+    text-align: left;
+    padding: 1%;
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
+}
+table>tbody>tr>td>input {
+    border: 1px solid #ddd;
+    height: 18px;
+    line-height: 25px;
+    font-size: 13px;
+    font-family: 'Noto Sans KR' , sans-serif;
+    padding-left: 10px;
+    background: #f3f3f3;
+    color: #777;
+}
+.top2 {
+    border-bottom: 1px solid #777;
+    font-size: 18px;
+    display: block;
+    padding: 40px 0px 10px 0px;
+}
+
+table>tbody>tr>td>label {
+    font-size: 15px;
+    width: 100%;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+table>tbody>tr>td>textarea {
+    background: #f3f3f3;
+    padding: 10px 0px 10px 10px
+    border: 1px solid #ddd;
+    wight: 100%;
+
+
+}
+a {
+    display: inline-block;
+    widht: 130px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #555;
+    background: #777;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0px 25px;
+}
+.end {
+    display: block;
+    text-align: center;
+    margin: 30px; 30px;
+    unicode-bidi: isolate;
+
+}
