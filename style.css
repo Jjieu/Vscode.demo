@@ -10,6 +10,7 @@
     display : flex;
     height : 86px;
     font-size: 10px;
+    justify-content: flex-end;
 }
 .nav > li > a{
     font-size: 10px;
@@ -19,13 +20,12 @@
     margin-top: 10px;
     margin-left: 20px;
     padding: 0 3px;
-    justify-content: flex-end;
 }
 .top_cate {
     font: 16px; 
     position: ;
     z-index: 1000;
-    top; 0px;
+    top: 0px;
     margin-left: 0px;
     wigth: 1234px;
     left: 0px;
@@ -45,17 +45,44 @@
     text-align: left;
     padding: 50px 0px;
 }
-.header_bg2 .txt02 {
+.header_bg2 .inner .txt02 {
+    color: #000;
     margin: 0px 0px 100px 0px;
     font: 16px;
     border: 1px;
-    background-color: none;
+    background: none;
     background-image: (img src="1920x550_contentus.jpg");
     background-position: 200px 21px;
 }
 .header_bg2 .txt02 a {
     padding: 0px 100px 0px 10px;
-    color: #fff;
+    color: #000;
+    background: none;
+}
+.sub_menu {
+    text-align: center;
+}
+.sub_menu ul{
+    display: flex;
+    text-align: center;
+    margin-left: 70px;
+}
+.sub_menu ul a{
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border: 1px solid #777;
+    letter-spacing: -0 5px;
+    font-size: 13px;
+    width: 100px
+}
+.sub_top {
+    text-align: right;
+    font-size: 12px;
+    height: 50px;
+    line-height:20px;
+    color: #999;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
 }
 .top1 {
     border-bottom: 1px solid #777;
@@ -66,7 +93,7 @@ table > tbody > tr > th {
     padding: 10px 0px 10px 28px;
     font-size: 14px;
     text-align: left;
-    wight: 120px;
+    weight: 120px;
     font-weight: normal;
     border-bottom: 1px solid #ddd;
 }
@@ -75,6 +102,7 @@ table>tbody>tr>td {
     padding: 1%;
     font-weight: normal;
     border-bottom: 1px solid #ddd;
+    weight: 100px;
 }
 table>tbody>tr>td>input {
     border: 1px solid #ddd;
@@ -104,8 +132,6 @@ table>tbody>tr>td>textarea {
     padding: 10px 0px 10px 10px
     border: 1px solid #ddd;
     wight: 100%;
-
-
 }
 a {
     display: inline-block;
@@ -122,7 +148,9 @@ a {
 .end {
     display: block;
     text-align: center;
-    margin: 30px; 30px;
+    margin: 30px 30px;
     unicode-bidi: isolate;
-
+}
+.inner_main {
+    margin: 0px 30px;
 }
