@@ -6,6 +6,11 @@
     margin: 0px;
     padding: 0px;
 }
+.nav {
+    display: flex;
+    color: red;
+    background-color: #555;
+}
 .top_cate {
     font: 16px; 
     position: ;

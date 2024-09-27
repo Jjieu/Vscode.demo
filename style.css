@@ -6,6 +6,21 @@
     margin: 0px;
     padding: 0px;
 }
+.nav {
+    display : flex;
+    height : 86px;
+    font-size: 10px;
+}
+.nav > li > a{
+    font-size: 10px;
+    border: none;
+    background: none;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 0 3px;
+    justify-content: flex-end;
+}
 .top_cate {
     font: 16px; 
     position: ;
@@ -27,13 +42,14 @@
     font-size: 45px;
     font-weight: 300;
     line-height: ;
-    padding-top: px;
     text-align: left;
+    padding: 50px 0px;
 }
 .header_bg2 .txt02 {
-    margin: 40px 0px 100px 0px;
+    margin: 0px 0px 100px 0px;
     font: 16px;
     border: 1px;
+    background-color: none;
     background-image: (img src="1920x550_contentus.jpg");
     background-position: 200px 21px;
 }
